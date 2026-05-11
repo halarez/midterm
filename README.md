@@ -70,4 +70,28 @@ export default defineConfig([
     },
   },
 ])
-```
+src 
+componants:-LoginPage.css
+           -LoginPage.tsx
+Layout:-AuthLayout.tsx
+       -MainLayout.tsx
+       
+       
+       npm install @mui/material @emotion/react @emotion/styled i installed materiel ui in terminal and i put import Button from '@mui/material/Button';in app tsx
+npm install react-hot-toast i install toast in terminal then i put import toast from 'react-hot-toast'; in app tsx
+npm install tailwindcss @tailwindcss/vite i installed tailwindcss in terminal then i put 
+@import "tailwindcss";
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+in index css
